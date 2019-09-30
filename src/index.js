@@ -1,4 +1,3 @@
-import Phaser from 'phaser';
 import BootScene from './js/scene/boot/boot_scene_controller';
 import LoadingScene from './js/scene/loading/loading_scene_controller';
 import GameplayScene from './js/scene/gameplay/gameplay_scene_controller';
