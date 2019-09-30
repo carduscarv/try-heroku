@@ -1,0 +1,5 @@
+{
+	"SERVER_HOST": "https://my-awesome-server.com",
+	"BASE_ASSET_URL": "https://my-awesome-server.com/path/to/asset",
+    "ENABLE_LOG": false
+}
