@@ -6,7 +6,8 @@
 	"scripts": {
 		"build": "webpack --config webpack/webpack.prod.js --env.build=agate-dev",
 		"dist": "npx http-server dist/ -p 5500 -e",
-		"dev": "webpack-dev-server --config webpack/webpack.dev.js --env.build=agate-dev --open --host 172.16.7.47 --port 8080 --inline"
+		"dev": "webpack-dev-server --config webpack/webpack.dev.js --env.build=agate-dev --open",
+		"start": "node src/index.js"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.5.4",
